@@ -19,8 +19,11 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   background-color: var(--WHITE);
+  margin: 0;
 }
-
+img{border: 1px solid var(--cornflower, #E7E9FC);
+  display: block;
+  }
 /* header */
 
 
