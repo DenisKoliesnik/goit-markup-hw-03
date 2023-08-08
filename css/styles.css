@@ -59,9 +59,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 10px;
 }
 .header {
+  border-bottom: 1px solid;
 }
 
 .nav {
@@ -307,11 +307,12 @@ p {
 }
 /* footer */
 .footer-name {
+  padding: 100px 0 100px;
   background: var(--navyblue, #2e2f42);
 }
 .footer {
   display: inline-block;
-  padding: 100px 0px 0px 0px;
+
   margin-bottom: 16px;
 
   width: 44px;
