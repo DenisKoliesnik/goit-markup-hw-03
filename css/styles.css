@@ -360,6 +360,15 @@ p {
   letter-spacing: 0.64px;
   background-color: #f4f4fd;
   cursor: pointer;
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+}
+.list-btm {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
 }
 .btn:hover,
 .btn:focus {
