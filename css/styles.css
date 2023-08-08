@@ -284,6 +284,7 @@ p {
 }
 
 .img-team {
+  border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
   background: var(--white, #fff);
 }
@@ -310,7 +311,7 @@ p {
 }
 .footer {
   display: inline-block;
-  padding: 100px 0px 17px 0px;
+  padding: 100px 0px 0px 0px;
   margin-bottom: 16px;
 
   width: 44px;
