@@ -59,9 +59,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 10px;
 }
 .header {
-  border-bottom: 1px;
 }
 
 .nav {
@@ -172,14 +172,14 @@ p {
   letter-spacing: 1.12px;
 }
 .title-button {
-  border-radius: 4px;
   min-width: 169px;
-  margin-top: 48px;
+
   margin: 0 auto;
   padding: 16px 32px;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   display: block;
+  margin-top: 48px;
 
   color: var(--white, #fff);
   background-color: var(--iris);
@@ -310,7 +310,7 @@ p {
 }
 .footer {
   display: inline-block;
-  margin-top: 101px;
+  padding: 100px 0px 17px 0px;
   margin-bottom: 16px;
 
   width: 44px;
