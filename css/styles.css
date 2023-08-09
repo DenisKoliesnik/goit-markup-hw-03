@@ -307,6 +307,7 @@ p {
 }
 /* footer */
 .footer-name {
+  margin-top: 120px;
   padding: 100px 0 100px;
   background: var(--navyblue, #2e2f42);
 }
@@ -354,7 +355,7 @@ p {
   text-align: center;
   font-family: Roboto, sans-serif;
   font-size: 16px;
-
+  border-radius: 4px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px;
@@ -366,9 +367,12 @@ p {
   align-items: center;
 }
 .list-btm {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+  margin-top: 96px;
 }
 .btn:hover,
 .btn:focus {
@@ -376,10 +380,24 @@ p {
   background-color: #404bbf;
 }
 /* portfolio section 2 */
+.list-aside {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
 .aside {
+  width: calc((100% - 72px) / 3);
   background-color: var(--WHITE);
 }
+.img-link {
+  width: 360px;
+  height: 300px;
+}
 .portfolio-text {
+  display: flex;
+  padding: 0px 16px;
   color: var(--navy-blye, #2e2f42);
   font-family: Roboto, sans-serif;
   font-size: 20px;
@@ -396,4 +414,11 @@ p {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  align-self: stretch;
 }
