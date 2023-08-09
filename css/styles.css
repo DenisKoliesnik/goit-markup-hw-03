@@ -405,6 +405,7 @@ p {
   height: 300px;
 }
 .portfolio-text {
+  margin-bottom: 8px;
   display: flex;
   padding: 0px 16px;
   color: var(--navy-blye, #2e2f42);
