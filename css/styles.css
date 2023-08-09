@@ -391,10 +391,13 @@ p {
   gap: 32px;
   flex-shrink: 0;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px; 
+
   
 }
 .aside {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 48px) / 3);
   background-color: var(--WHITE);
 }
 .img-link {
